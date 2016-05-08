@@ -1,0 +1,34 @@
+>
+id:1
+nombre:saul
+apellido paterno:chavez
+apellido materno:romo
+cargo:estudiante
+empresa:ceti
+calle:calle manzana
+numero exterior:12
+numero interior:2
+colonia:colonia manzana
+municipio:municipio manzana
+estado:estado manzana
+codigo postal:45130
+telefono:123852456
+correo electronico:saul@mail.com
+fecha nacimiento:15/04/1996
+>
+id:2
+nombre:john
+apellido paterno:doe
+apellido materno:foo
+cargo:student
+empresa:bar
+calle:apple street
+numero exterior:21
+numero interior:3
+colonia:colonia apple
+municipio:municipio apple
+estado:estado apple
+codigo postal:3145
+telefono:9874258
+correo electronico:john@mail.com
+fecha nacimiento:1/04/1942

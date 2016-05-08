@@ -1,0 +1,51 @@
+>
+calle:1
+apellido paterno:1
+cargo:1
+correo electronico:1
+fecha nacimiento:1
+numero interior:1
+estado:1
+empresa:1
+codigo postal:1
+colonia:1
+municipio:1
+id:1
+telefono:1
+apellido materno:1
+nombre:1
+numero exterior:1
+>
+calle:2
+apellido paterno:2
+cargo:2
+correo electronico:2
+fecha nacimiento:2
+numero interior:2
+estado:2
+empresa:2
+codigo postal:2
+colonia:2
+municipio:2
+id:2
+telefono:2
+apellido materno:2
+nombre:2
+numero exterior:2
+>
+apellido paterno:1
+calle:1
+municipio:1
+correo electronico:1
+fecha nacimiento:1
+numero interior:1
+estado:1
+empresa:1
+codigo postal:1
+colonia:1
+cargo:1
+id:3
+telefono:1
+apellido materno:1
+nombre:1
+numero exterior:1

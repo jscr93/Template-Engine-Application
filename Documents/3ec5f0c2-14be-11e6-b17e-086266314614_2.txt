@@ -1,0 +1,9 @@
+El empleado john doe foo con el cargo de student
+se encuentra laborando actualmente en la empresa bar.
+El domicilio actual de john se encuentra en apple street 
+numero exterior 21, numero interior 3
+en la colonia colonia apple, municipio de municipio apple,
+en el estado de estado apple, codigo postal 3145.
+Para cualquier informacion contactese al telefono 9874258,
+correo electronico john@mail.com.
+john nacio el dia 1/04/1942.

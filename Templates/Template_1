@@ -1,0 +1,9 @@
+El empleado {nombre} {apellido1} {apellido2} con el cargo de {cargo}
+se encuentra laborando actualmente en la empresa {empresa}.
+El domicilio actual de {nombre} se encuentra en {calle} 
+numero exterior {numeroExt}, numero interior {numeroInt}
+en la colonia {colonia}, municipio de {municipio},
+en el estado de {estado}, codigo postal {codigoPostal}.
+Para cualquier informacion contactese al telefono {telefono},
+correo electronico {correoElectronico}.
+{nombre} nacio el dia {fechaNacimiento}.
