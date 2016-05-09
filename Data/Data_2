@@ -1,51 +1,68 @@
 >
 colonia:Manzana
-apellido materno:Romo
-municipio:Manzana
-telefono:123456
-estado:Manzana
+id:1
+codigo postal:123
 cargo:Estudiante
+numero interior:1
+estado:Manzana
+fecha nacimiento:1/1/1
+correo electronico:saul@manzana.com
+calle:Manzana
 numero exterior:1
 empresa:Ceti
 apellido paterno:Chavez
+municipio:Manzana
+apellido materno:Romo
 nombre:Saul
-calle:Manzana
-numero interior:1
-fecha nacimiento:1/1/1
-codigo postal:123
-correo electronico:saul@manzana.com
-id:1
+telefono:123456
 >
 colonia:1
-apellido materno:1
-municipio:1
-telefono:1
-estado:1
-cargo:1
-numero exterior:1
-empresa:1
-apellido paterno:1
-nombre:1
-calle:1
-numero interior:1
-fecha nacimiento:1
-codigo postal:1
-correo electronico:1
 id:2
->
-colonia:1
-apellido materno:1
-municipio:1
-telefono:1
-estado:1
+codigo postal:1
 cargo:1
+numero interior:1
+estado:1
+fecha nacimiento:1
+correo electronico:1
+calle:1
 numero exterior:1
 empresa:1
 apellido paterno:1
+municipio:1
+apellido materno:1
 nombre:1
-calle:1
-numero interior:1
-fecha nacimiento:1
-codigo postal:1
-correo electronico:1
+telefono:1
+>
+colonia:1
 id:3
+codigo postal:1
+cargo:1
+numero interior:1
+estado:1
+fecha nacimiento:1
+correo electronico:1
+calle:1
+numero exterior:1
+empresa:1
+apellido paterno:1
+municipio:1
+apellido materno:1
+nombre:1
+telefono:1
+>
+colonia:3
+id:4
+codigo postal:3
+cargo:3
+numero interior:3
+estado:3
+fecha nacimiento:3
+correo electronico:3
+calle:3
+numero exterior:3
+empresa:3
+apellido paterno:3
+municipio:3
+apellido materno:3
+nombre:3
+telefono:3

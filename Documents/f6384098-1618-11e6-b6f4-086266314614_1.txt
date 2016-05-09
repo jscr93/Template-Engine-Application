@@ -1,0 +1,9 @@
+El empleado Saul Chavez Romo con el cargo de Estudiante
+se encuentra laborando actualmente en la empresa Ceti.
+El domicilio actual de Saul se encuentra en Manzana 
+numero exterior 1, numero interior 1
+en la colonia Manzana, municipio de Manzana,
+en el estado de Manzana, codigo postal 123.
+Para cualquier informacion contactese al telefono 123456,
+correo electronico saul@manzana.com.
+Saul nacio el dia 1/1/1.

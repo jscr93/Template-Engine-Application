@@ -5,22 +5,34 @@ def generateAll_TXT(dataFilePath, templatefilepath, resultDocumentDirectoryPath)
     dataEntities = efio.getDataEntities(dataFilePath)
     if not dataEntities:
         return False
-    return trs.generateTXT(templatefilepath, resultDocumentDirectoryPath, dataEntities)
+    return trs.transclusionTXT(templatefilepath, resultDocumentDirectoryPath, dataEntities)
 
-def generateALL_PDF(dataFilePath, templatefilepath, resultDocumentDirectoryPath):
+def generateAll_PDF(dataFilePath, templatefilepath, resultDocumentDirectoryPath):
     dataEntities = efio.getDataEntities(dataFilePath)
     if not dataEntities:
         return False
-    return trs.generatePDF(templatefilepath, resultDocumentDirectoryPath, dataEntities)
+    return trs.transclusionPDF(templatefilepath, resultDocumentDirectoryPath, dataEntities)
 
-def generateByAttribute_TXT(dataFilePath, templatefilepath, resultDocumentDirectoryPath, attribute, value):
-    dataEntities = efio.getDataEntitiesMatch(dataFilePath, attribute, value)
+def generateAll_DOCX(dataFilePath, templatefilepath, resultDocumentDirectoryPath):
+    dataEntities = efio.getDataEntities(dataFilePath)
     if not dataEntities:
         return False
-    return trs.generateTXT(templatefilepath, resultDocumentDirectoryPath, dataEntities)
+    return trs.transclusionDOCX(templatefilepath, resultDocumentDirectoryPath, dataEntities)
 
-def generateByAttribute_PDF(dataFilePath, templatefilepath, resultDocumentDirectoryPath, attribute, value):
-    dataEntities = efio.getDataEntitiesMatch(dataFilePath, attribute, value)
+def generateById_TXT(dataFilePath, templatefilepath, resultDocumentDirectoryPath, ids):
+    dataEntities = efio.getDataEntitiesById(dataFilePath, ids)
     if not dataEntities:
         return False
-    return trs.generatePDF(templatefilepath, resultDocumentDirectoryPath, dataEntities)
+    return trs.transclusionTXT(templatefilepath, resultDocumentDirectoryPath, dataEntities)
+
+def generateById_PDF(dataFilePath, templatefilepath, resultDocumentDirectoryPath, ids):
+    dataEntities = efio.getDataEntitiesById(dataFilePath, ids)
+    if not dataEntities:
+        return False
+    return trs.transclusionPDF(templatefilepath, resultDocumentDirectoryPath, dataEntities)
+
+def generateById_DOCX(dataFilePath, templatefilepath, resultDocumentDirectoryPath, ids):
+    dataEntities = efio.getDataEntitiesById(dataFilePath, ids)
+    if not dataEntities:
+        return False
+    return trs.transclusionDOCX(templatefilepath, resultDocumentDirectoryPath, dataEntities)
