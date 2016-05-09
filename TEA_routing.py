@@ -7,6 +7,7 @@ import CreateDataEntity as create
 import DeleteDataEntity as delete
 import PrintDataEntity as printd
 import UpdateDataEntity as update
+import Transclusion as generate
 
 def routeParams():
     """
@@ -77,8 +78,9 @@ def routeUpdate(args):
             attribute = args.pop(0);
             value = args.pop(0);
             try:
-                if update.updateDataEntity(config.PATHS["entity_model_file_path"],config.PATHS["data_file_path"],attribute,value):
-                    print("Data Entity updated successfully")
+                entity_id = update.updateDataEntity(config.PATHS["entity_model_file_path"],config.PATHS["data_file_path"],attribute,value)
+                if entity_id:
+                    print("Data Entity updated successfully on id: {0}".format(entity_id))
                 else:
                     print("Data Entity could not be updated")
             except Exception as err:
@@ -90,7 +92,8 @@ def routeUpdate(args):
 
 def routeGenerate(args):
     args.pop(0)
-    print("Generate")
+    
+    
     
 def routeFailed(args):
     print("Syntax error near '{0}'".format(args[0]))
@@ -137,7 +140,7 @@ def deleteByAttribute(args):
 def printAll(args):
     args.pop(0)
     try:
-        if printd.printDataEntities(config.PATHS["data_file_path"]) == False:
+        if not printd.printDataEntities(config.PATHS["data_file_path"]):
             print("No data entities to print")
     except Exception as err:
         print(err)
@@ -147,7 +150,7 @@ def printByAttribute(args):
         attribute = args.pop(0);
         value = args.pop(0);
         try:
-            if printd.printDataEntityByAttribute(config.PATHS["entity_model_file_path"],config.PATHS["data_file_path"],attribute,value) == False:
+            if not printd.printDataEntityByAttribute(config.PATHS["entity_model_file_path"],config.PATHS["data_file_path"],attribute,value):
                 print("No data entities to print")
         except Exception as err:
             print(err)

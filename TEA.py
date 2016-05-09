@@ -27,5 +27,5 @@ def generateTxtAll():
         print("The file {0} could not be located".format(templatefilepath))
         sys.exit()
 '''
-        
+
 routing.routeParams()
